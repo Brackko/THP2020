@@ -1,0 +1,142 @@
+#entête
+{
+ display: flex;
+ width: auto;
+ height: 500px;
+ justify-content: flex-end;
+ flex-direction: row;
+}
+
+.gmail
+{
+  border: 10px transparent;
+  color: rgba(0,0,0,0.87);
+  text-decoration: none;
+  display: inline-block;
+  line-height: 24px;
+  outline: none;
+  vertical-align: middle;
+  font-family: arial,sans-serif;
+  cursor: pointer;
+  padding-right: 15px;
+  white-space: nowrap;
+  font-size: 13px;
+
+}
+
+.appli
+{
+  border: 10px transparent;
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+  background-size: 528px 68px;
+  display: inline-block;
+  outline: none;
+  vertical-align: middle;
+  border-radius: 2px;
+  box-sizing: border-box;
+  height: 30px;
+  width: 30px;
+  font-family: arial,sans-serif;
+}
+
+.connexion
+{
+  color: #fff;
+  cursor: default;
+  text-decoration: none;
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  outline: none;
+  background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+  display: inline-block;
+  line-height: 28px;
+  padding: 0 12px;
+  font-family: arial,sans-serif;
+  text-align: left;
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+#google
+{
+  display: flex;
+  justify-content: center;
+  margin-top: -350px;
+}
+
+#requete
+{
+  display : flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+
+.barre
+{
+  padding-left: 5px;
+  padding-right: 0px;
+}
+
+#buttons
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+  border-radius: 4px;
+  padding: 0 16px;
+  margin: 11px 4px;
+}
+
+.Recherche
+{
+  background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.Chance
+{
+  background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+#France
+{
+  justify-content: flex-start;
+  margin-left: 30px;
+  text-align: left;
+  font-size: 15px;
+  color: rgba(0,0,0,.54);
+  padding-left: 27px;
+}
